@@ -1,0 +1,74 @@
+@import url('./vendor/normalize.css');
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // background: #e7f6ff;
+}
+
+html,
+body {
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* ширина для вертикального скролла */
+  height: 4px; /* высота для горизонтального скролла */
+  background-color: #e2e2e2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #347884;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 5px #f3faf7;
+}
+
+button,
+input {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.clear {
+  * {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.page {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  color: #000000;
+  border-radius: 20px;
+  max-width: 1080px;
+  min-width: 320px;
+  margin: 85px auto 40px;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
